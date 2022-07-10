@@ -114,3 +114,11 @@ select.side-light{
     color: #6EE246;
     font-weight: bold;
 }
+
+footer section {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+}
