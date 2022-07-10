@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Budha Token">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css"/>  
+  <link rel="stylesheet" type="text/css" href="/css/mdb.min.css"/>  
+  <link rel="stylesheet" type="text/js" href="js/script.js" />
+  <!--<link rel="stylesheet" type="text/css" href="/css/mdb.rtl.min.css"/>  -->
+  <!--<link rel="stylesheet" type="text/css" href="/css/mdb.min.css.map"> -->
+  <!--<link rel="stylesheet" type="text/css" href="/css/mdb.rtl.min.css.map"/>  -->
+  <title>Buddha Token</title>
+
+</head>
+<body>
+  <!-- Image and text -->
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/img/logo.png" class="me-2" height="240" alt="Budha Token Logo" loading="lazy"/>
+          <small>BUDDHA TOKENS</small>
+        </a>
+      </div>
+    </nav>
+  <!--Form-->
+    <section class="h-100 h-custom gradient-custom-2">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12">
+            <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <!--Left side-->
+                  <div class="col-lg-6">
+                    <div class="p-5">
+                      <h3 class="fw mb-5">Já comprou tokens antes?</h3>
+                      <form class="row g-3 mb-7 needs-validation" novalidate>
+                        <div class="row">                        
+                          <p class="mb-0"> Qual seu CPF?</p>
+                          <div class="col-md-10 mb-3 pb-2">                            
+                            <div class="form-outline side-light">
+                              <input type="text" id="campo_cpf" maxlength="11" placeholder="___.___.___-__"name="cpf" \
+                              pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" class="form-control form-control-lg" />
+                              
+                              <div class="invalid-feedback">Insira um CPF válido</div>
+                            </div>  
+                          </div>
+                        
+                        </div>
+                        <div class="col-12">
+                          <button type="button" class="btn btn-outline-dark" btn-lg"
+                          data-mdb-ripple-color="dark">Obter código de acesso</button>
+                        </div>
+                      </form>                  
+                      <form class="row g-3 needs-validation" novalidate>
+                        <div class="row">                        
+                          <p class="mb-0"> Digite o código recebido no e-mail</p>
+                          <div class="col-md-10 mb-3 pb-2">                            
+                            <div class="form-outline side-light">
+                              <input type="text" id="campo_cpf" placeholder="Código" name="code" class="form-control form-control-lg" />
+                              
+                              <div class="invalid-feedback">Insira um CPF válido</div>
+                            </div>  
+                          </div>
+                        
+                        </div>
+                        <div class="col-12">
+                          <button type="button" class="btn btn-dark btn-lg"
+                          data-mdb-ripple-color="dark">Entrar</button>
+                        </div>
+                      </form>                    
+                    </div>
+                  </div>
+                  <!--Right side-->
+                  <div class="col-lg-6 bg-indigo text-white">
+                    <div class="p-5">
+                      <h3 class="fw mb-5">Primeira vez aqui?</h3>
+                      <form class="row g-3 needs-validation" novalidate>
+                        
+                        <div class="row">                        
+                          <p> Qual seu nome?</p>
+                          <div class="col-md-10 mb-4 pb-2">                            
+                            <div class="form-outline side-dark">
+                              <input type="text" id="campo_email" placeholder="Nome Completo" name="name" class="form-control form-control-lg" />
+                              <div class="invalid-feedback">Insira um CPF válido</div>
+                            </div>  
+                          </div>                          
+                        </div>
+
+                        <div class="row">                        
+                          <p> Qual seu Email?</p>
+                          <div class="col-md-10 mb-4 pb-2">                            
+                            <div class="form-outline side-dark">
+                              <input type="email" id="campo_email" placeholder="email" name="email" class="form-control form-control-lg" />
+                              <div class="invalid-feedback">Insira um CPF válido</div>
+                            </div>  
+                          </div>                          
+                        </div>
+
+                        <div class="row">                        
+                          <p> Qual seu CPF?</p>
+                          <div class="col-md-10 mb-4 pb-2">                            
+                            <div class="form-outline side-dark">
+                              <input type="text" id="campo_cpf" maxlength="11" placeholder="___.___.___-__"name="cpf" \
+                              pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" class="form-control form-control-lg" />
+                              
+                              <div class="invalid-feedback">Insira um CPF válido</div>
+                            </div>  
+                          </div>                          
+                        </div>
+
+                        <div class="col-12">
+                          <button type="button" class="btn btn-light btn-lg"
+                          data-mdb-ripple-color="dark" onclick="location.href='/login.html' ">Cadastrar</button>
+                        </div>
+                        
+                      </form>                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="">
+      <!-- Footer -->
+      <footer class="">
+        <!-- Grid container -->
+        <div class="p-5 pb-0 w-75 m-auto ">
+          <!-- Section: CTA -->
+          <section class="bt-shadow p-3 d-flex justify-content-between">
+            <div class="col-7 p-1" style="margin: 0 2rem;">
+              <span  >Ao clicar em ”Aceitar todos os cookies, concorda com o armazenamento de cookies no seu dispositivo para mehorar a navegação no site, analisar a utilização do site e ajudar nas nossas iniciativas de marketig.</span>
+            </div>  
+              <div class="col-5 m-auto justify-content-between">
+                <button type="button" class="btn btn-outline-dark btn-rounded btn-secondary-color ">
+                  Definições de cookies
+                </button>
+                <button type="button" class="btn btn-dark btn-rounded btn-color">
+                  Aceitar todos os cookies
+                </button>
+              </div>              
+          </section>
+        </div>        
+      </footer>
+    </section>
+</body>
+</html>
